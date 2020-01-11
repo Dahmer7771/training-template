@@ -1,0 +1,53 @@
+@import "../variables";
+
+.header {
+  mix-blend-mode: difference;
+  filter: invert(100%);
+  position: sticky;
+  top: 0;
+  margin-bottom: -100px;
+  background-color: transparent;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 95px;
+
+  &__logo {
+    //mix-blend-mode: difference;
+    //filter: invert(100%);
+  }
+
+  &__nav {
+
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+  }
+
+  &__list-item {
+    list-style: none;
+  }
+
+  &__link {
+    color: $title-color;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    //line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  &__list-item + .nav__list-item {
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,48 @@
+@import "../variables";
+
+.numbers {
+  background-color: $primary;
+  padding: 50px 0;
+
+  &__wrapper {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    //justify-content: center;
+  }
+
+  &__item {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-width: 190px;
+    padding: 20px 35px 20px;
+  }
+
+  .numbers__item:last-child {
+    //padding-bottom: 0;
+  }
+
+  &__image {
+    margin-right: 25px;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  &__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,41 @@
+.services {
+  background-color: #f5f5f5;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 100px;
+    padding-top: 55px;
+  }
+
+  &__item {
+    text-align: center;
+    margin: 0 auto 55px;
+    width: 220px;
+    padding: 0 10px;
+
+    figcaption {
+      margin: 0;
+    }
+  }
+
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
