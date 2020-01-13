@@ -1,0 +1,43 @@
+.testimonials {
+  background-color: #10c9c3;
+  padding: 170px 0 55px;
+
+  &__item-wrapper {
+
+  }
+
+  &__item {
+    max-width: 690px;
+    margin: 0 auto 100px;
+    text-align: center;
+  }
+
+  &__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+
+  &__author {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}
+
+.slick-dots li button::before {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #ffffff;
+}
+
+.slick-slide:focus {
+  outline: none;
+}

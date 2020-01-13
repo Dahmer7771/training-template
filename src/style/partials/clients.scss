@@ -1,0 +1,19 @@
+.clients {
+  padding: 65px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 100px;
+  }
+
+  &__item {
+    margin: 20px 10px;
+  }
+
+  &__image {
+
+  }
+}
