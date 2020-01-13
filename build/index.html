@@ -12,36 +12,36 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="#" class="header__logo">
+            <a href="#introduction" class="header__logo">
                 <img src="img/header/logo.png" alt="logo">
             </a>
             <nav class="header__nav nav">
                 <ul class="nav__list">
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link active">home</a>
+                        <a href="#introduction" class="nav__link active">home</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">about</a>
+                        <a href="#about-us" class="nav__link">about</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">work</a>
+                        <a href="#work" class="nav__link">work</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">process</a>
+                        <a href="#work-process" class="nav__link">process</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">services</a>
+                        <a href="#services" class="nav__link">services</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">testimonials</a>
+                        <a href="#testimonials" class="nav__link">testimonials</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="#" class="nav__link">contact</a>
+                        <a href="#feedback" class="nav__link">contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section class="introduction">
+        <section id="introduction" class="introduction">
             <div class="introduction__wrapper">
                 <div class="introduction__content">
                     <h1 class="introduction__title">We Design and Develop</h1>
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-us">
+        <section id="about-us" class="about-us">
             <div class="container">
                 <h5 class="about-us__title">
                     About Us
@@ -140,7 +140,7 @@
                 </figure>
             </div>
         </section>
-        <section class="work">
+        <section id="work" class="work">
             <div class="work__item color_dark"></div>
             <div class="work__item color_light"></div>
             <div class="work__item color_dark"></div>
@@ -290,30 +290,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonials__item-wrapper">
-                    <div class="testimonials__item">
-                        <div class="testimonials__text">
-                            “ Outstanding job and exceeded all expectations. It was a pleasure
-                            to work with them on a sizable first project and am looking
-                            forward to start the next one asap.”
-                        </div>
-                        <div class="testimonials__author">
-                            Michael Hopkins
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials__item-wrapper">
-                    <div class="testimonials__item">
-                        <div class="testimonials__text">
-                            “ Outstanding job and exceeded all expectations. It was a pleasure
-                            to work with them on a sizable first project and am looking
-                            forward to start the next one asap.”
-                        </div>
-                        <div class="testimonials__author">
-                            Michael Hopkins
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="clients">
@@ -349,15 +325,18 @@
                     <input type="email" placeholder="Your Email" class="feedback-form__email">
                     <input type="text" placeholder="Your Title" class="feedback-form__title">
                     <textarea placeholder="Your comment" class="feedback-form__comment"></textarea>
-                    <input type="button" value="send message" class="feedback-form__button">
+                    <input type="submit" value="send message" class="feedback-form__button">
                 </form>
             </div>
         </section>
+        <footer class="footer">
+            footer
+        </footer>
     </div>
-    <script src="js/main.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/jquery-migrate-1.4.1.min"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
