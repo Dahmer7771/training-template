@@ -17,3 +17,13 @@
 
   }
 }
+
+@media all and (max-width: 930px) {
+  .clients {
+    padding: 50px 0;
+
+    &__wrapper {
+      margin: 0 30px;
+    }
+  }
+}

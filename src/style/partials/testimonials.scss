@@ -42,3 +42,13 @@
 .slick-slide:focus {
   outline: none;
 }
+
+@media all and (max-width: 930px) {
+  .testimonials {
+    padding: 100px 0 55px;
+  }
+
+  //.slick-list {
+  //  height: 150px!important;
+  //}
+}

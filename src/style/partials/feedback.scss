@@ -93,3 +93,21 @@
     margin: 0 auto;
   }
 }
+
+@media all and (max-width: 930px) {
+  .feedback {
+    padding: 30px 0;
+  }
+
+  .feedback-form {
+    &__name {
+      max-width: 670px;
+      width: 670px;
+    }
+
+    &__email {
+      max-width: 670px;
+      width: 670px;
+    }
+  }
+}

@@ -39,3 +39,12 @@
     font-weight: 500;
   }
 }
+
+@media all and (max-width: 930px) {
+  .services {
+    &__wrapper {
+      margin: 0 30px;
+      padding-top: 50px;
+    }
+  }
+}
