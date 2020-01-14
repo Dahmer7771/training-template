@@ -76,3 +76,12 @@
     height: 60px;
   }
 }
+
+@media all and (max-width: 500px) {
+  .work-process {
+    &__text {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
