@@ -17,8 +17,10 @@ window.onscroll = () => {
     if(BODY.offsetWidth <= 930) return;
     if(window.scrollY > 100 && BODY.offsetWidth > 930) {
         HEADER.style.height = '60px';
+        HEADER.style.backgroundColor = '#10c9c3';
     } else {
         HEADER.style.height = '100px';
+        HEADER.style.backgroundColor = '#e9e9e9';
     }
 };
 
